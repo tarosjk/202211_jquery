@@ -56,3 +56,32 @@ h2 {
 .slick-next:focus {
   background-color: rgba(0,0,0,.8);
 }
+
+.my-slick {
+  margin-bottom: 150px!important;
+}
+
+/* AOS */
+.aos-sect {
+  display: flex;
+}
+
+.aos-sect:not(:last-child) {
+  margin-bottom: 12rem;
+}
+
+.photo {
+  flex-basis: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.desc {
+  background-color: #fff;
+  padding: 3rem 3rem 3rem 5rem;
+  flex: 1;
+  margin-right: -50px;
+  position: relative;
+  left: -3rem;
+  top: 2rem;
+}

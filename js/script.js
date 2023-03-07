@@ -22,6 +22,11 @@ $(document).ready(function(){
 
 });
 
+// AOS.init();
+// ↓
 
-// AOS
-AOS.init();
+// HTML、その他ファイルのロードが完了後にAOS起動
+$(window).on('load', function(){
+  // AOS
+  AOS.init();
+})
