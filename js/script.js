@@ -30,3 +30,7 @@ $(window).on('load', function(){
   // AOS
   AOS.init();
 })
+
+document.addEventListener('aos:in', function() {
+  alert('アニメーションしました')
+})

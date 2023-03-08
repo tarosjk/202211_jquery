@@ -13,6 +13,11 @@
   <!-- AOS -->
   <link rel="stylesheet" href="js/vendors/aos/aos.min.css">
 
+  <!-- Fancybox -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -30,33 +35,44 @@
     </div>
 
     <section class="aos-sect">
-      <div class="photo" data-aos="fade-up">
+      <div class="photo" data-aos="fade-up" data-aos-offset="300">
         <img src="img/sample1.jpg" alt="">
       </div>
-      <div class="desc" data-aos="fade-down">
+      <div class="desc" data-aos="fade-down" data-aos-offset="300">
         <h3>Dummy Title</h3>
         <p>これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。</p>
       </div>
     </section>
 
     <section class="aos-sect">
-      <div class="photo" data-aos="flip-left">
+      <div class="photo" data-aos="flip-left" data-aos-duration="1200">
         <img src="img/sample2.jpg" alt="">
       </div>
-      <div class="desc" data-aos="flip-down">
+      <div class="desc" data-aos="flip-down" data-aos-once="true">
         <h3>Dummy Title</h3>
         <p>これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。</p>
       </div>
     </section>
 
     <section class="aos-sect">
-      <div class="photo" data-aos="zoom-in-right">
+      <div class="photo" data-aos="zoom-in-right" data-aos-anchor-placement="center-center">
         <img src="img/sample3.jpg" alt="">
       </div>
       <div class="desc" data-aos="zoom-in-left">
         <h3>Dummy Title</h3>
         <p>これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。これはダミーテキストです。</p>
       </div>
+    </section>
+
+    <section class="gallery">
+      <h2>Gallery</h2>
+      <ul>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+        <li><a href=""><img src="" alt=""></a></li>
+      </ul>
     </section>
 
   </div>
@@ -69,6 +85,9 @@
 
   <!-- AOS -->
   <script src="js/vendors/aos/aos.min.js"></script>
+
+  <!-- fancybox -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
 
   <!-- my script -->
   <script src="js/script.js"></script>
