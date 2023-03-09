@@ -85,3 +85,27 @@ h2 {
   left: -3rem;
   top: 2rem;
 }
+
+/* ギャラリー */
+.gallery {
+  margin-top: 10em;
+}
+
+.gallery h2 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.gallery ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.gallery ul li {
+  width: 18%;
+}
+
+.gallery ul li img {
+  width: 100%;
+}

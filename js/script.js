@@ -34,3 +34,11 @@ $(window).on('load', function(){
 document.addEventListener('aos:in', function() {
   alert('アニメーションしました')
 })
+
+// Fancybox
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
+  Thumbs: {
+    type: "classic",
+  },
+});
